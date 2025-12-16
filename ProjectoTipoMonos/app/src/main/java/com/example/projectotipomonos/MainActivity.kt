@@ -16,6 +16,7 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.example.projectotipomonos.ui.patallas.FunctionInicio
 import com.example.projectotipomonos.ui.patallas.PantallaInfo
+import com.example.projectotipomonos.ui.patallas.PantallaZoo
 import com.example.projectotipomonos.ui.theme.ProjectoTipoMonosTheme
 
 class MainActivity : ComponentActivity() {
