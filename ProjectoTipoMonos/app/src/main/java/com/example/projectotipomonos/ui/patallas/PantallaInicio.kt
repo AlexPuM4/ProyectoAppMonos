@@ -26,7 +26,7 @@ fun FunctionInicio(navController: NavHostController){
     ){
         Text("Bienvenid@ al Zoo especializado en Monos", style = MaterialTheme.typography.headlineSmall)
         Spacer(Modifier.height(24.dp))
-        Button(onClick = {}){Text("Mirar monos") }
+        Button(onClick = {navController.navigate("zoo")}){Text("Mirar monos") }
         Spacer(Modifier.height(12.dp))
         Button(onClick = {navController.navigate("info")}){Text("Informacion sobre la App") }
     }
