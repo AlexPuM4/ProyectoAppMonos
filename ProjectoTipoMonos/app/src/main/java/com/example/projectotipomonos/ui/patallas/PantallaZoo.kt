@@ -47,7 +47,13 @@ fun PantallaZoo(navController: NavHostController){
                     }
                 }
             }
+        }//Se cierra los items
+        //boton tiene que estar de un item
+        item {
+            Spacer(Modifier.height(32.dp))
+            Button(onClick = {navController.popBackStack()},
+                Modifier.fillMaxWidth().padding(horizontal = 16.dp))
+            {Text("Volver al inicio")}
         }
-
-    }
+    }//Aqui se termina LazyColumn
 }

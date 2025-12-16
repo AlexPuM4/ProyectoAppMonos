@@ -29,7 +29,7 @@ fun PantallaInfo(navController: NavHostController){
         )
         {Text("Volver")}
         Spacer(Modifier.height(12.dp))
-        Text("Desarrollado por Alex.P", style = MaterialTheme.typography.displaySmall)
+        Text("Desarrollado por Alex.P", style = MaterialTheme.typography.titleLarge)
         Spacer(Modifier.height(12.dp))
         Text("Esta APP te muestra la informacion sobre distintas especies de monos", style = MaterialTheme.typography.headlineSmall)
     }
